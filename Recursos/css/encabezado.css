@@ -1,0 +1,24 @@
+#encabezado{
+    background: rgb(255, 216, 223);
+    height: 6vh;
+}
+
+#encabezado ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#encabezado ul li{
+    background: plum;
+    color: purple;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid purple;
+}
+
+#encabezado ul li:hover {
+    color: rgb(65, 225, 137);
+    border-radius: 10%;
+    transform: scale(1.3);
+}
