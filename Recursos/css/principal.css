@@ -5,17 +5,16 @@
 }
 
 .botones{
-    background: rgb(248, 209, 137);
-    padding: 10px;
-    margin: 5px;
+    background: rgb(117, 212, 204);
+    padding: 7px;
+    margin: 10px;
 }
 
 #tabContenido div{
-    display: inline-block;
+    display: inline;
     position: absolute;
     width: 60%;
-    padding: 3px 5px;
-    background: sandybrown;
+    background: rgb(117, 212, 204);
 }
 
 #tabContenido div:not(:nth-child(1)){
@@ -24,4 +23,20 @@
 
 #tabContenido div:target{
     display: inline-block;
+}
+
+#Detalleinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#detalleInfo table {
+    background-color: rgb(187, 236, 238);
+    padding: 5px;
+}
+
+#detalleInfo table tr:nth-child(even){
+    background-color: rosybrown;
 }
