@@ -1,3 +1,10 @@
+
+#cuadro{
+    background: rgb(160, 95, 224);
+    padding: 50px ;
+    margin: auto;
+}
+
 #tabContenedor ul {
     display: flex;
     flex-direction: row;
@@ -8,6 +15,7 @@
     background: rgb(117, 212, 204);
     padding: 7px;
     margin: 10px;
+    border-radius: 20% 0% 0% 0%;
 }
 
 #tabContenido div{
@@ -32,11 +40,15 @@
     margin-top: 10%;
 }
 
-#detalleInfo table {
+#Detalleinfo table {
     background-color: rgb(187, 236, 238);
     padding: 5px;
 }
 
-#detalleInfo table tr:nth-child(even){
-    background-color: rosybrown;
+#Detalleinfo table tr:nth-child(even){
+    background: rgb(223, 151, 151);
+}
+
+#Detalleinfo table tr:nth-child(odd){
+    background: rgb(131, 213, 224);
 }
