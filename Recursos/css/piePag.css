@@ -1,0 +1,22 @@
+#piepag {
+    background: turquoise;
+    width: 100%;
+    overflow: auto;
+    margin-top: 2%;
+    border-top: 1px solid #aadcd2;
+}
+
+#piepag i {
+    font-size: 150%;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+
+#piepag li {
+    display: inline;
+}
+
+#piepag ul {
+    text-align: center;
+}
