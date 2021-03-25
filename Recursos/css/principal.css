@@ -3,8 +3,9 @@
     background: rgb(160, 95, 224);
     padding: 30px ;
     margin-top: 40px;
-    width: 78%;
-    padding-left: 300px;
+    width: 65%;
+    margin: 50px;
+    margin-left: 250px;
 }
 
 #tabContenedor ul {
@@ -14,7 +15,7 @@
 }
 
 .botones{
-    background: rgb(117, 212, 204);
+    background: rgb(248, 191, 245);
     padding: 7px;
     margin: 5px;
     border-radius: 10px 0px 0px 0px;
@@ -46,8 +47,10 @@
 }
 
 #Detalleinfo table {
+    width: 50%;
     background-color: rgb(187, 236, 238);
-    padding: 5px;
+    padding: 10px;
+    align-self: center;
 }
 
 #Detalleinfo table tr:nth-child(even){
@@ -56,4 +59,23 @@
 
 #Detalleinfo table tr:nth-child(odd){
     background: rgb(131, 213, 224);
+}
+
+#code{
+    justify-content: center;
+    margin: 20px;
+    background: rgb(219, 182, 255);
+    padding: 15px;
+}
+
+#Detalleinfo table tr td {
+    list-style: none;
+}
+
+#code div:not(:nth-child(0)){
+    display: none;
+}
+
+#code div:target{
+    display: inline-block;
 }
